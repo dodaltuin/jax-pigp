@@ -1,6 +1,6 @@
 # Physics and Lie symmetry informed Gaussian processes (ICML 2024)
 
-This directory contains [Jupyter Notebooks](https://jupyter.org/) for performing the experiments from the above paper.
+This directory contains [Jupyter Notebooks](https://jupyter.org/) for performing the experiments from [the above paper](https://openreview.net/forum?id=1V50J0emll).
 
 ## Experiments
 
