@@ -24,7 +24,7 @@ Comments:
 
 ### [``examples/PSGPs``](examples/PSGPs)
 
-Experiments from our ICML paper.
+Experiments from [our ICML paper](https://openreview.net/forum?id=1V50J0emll).
 
 ## Tests
 
