@@ -11,9 +11,10 @@ import optax
 from typing import Callable
 
 # fixed settings for learning rate schedule
-DECAY_RATE = 0.97
+DECAY_RATE = 0.99
 STAIRCASE = False
-TRANS_BEGIN = 0.10
+TRANS_BEGIN = 0.75
+END_LR_FACTOR = 25.
 
 
 class AdamLearner:
@@ -198,10 +199,11 @@ class AdamLearner:
         # exponentially decaying learning rate schedule
         self.lr_schedule = optax.exponential_decay(
             init_value=lr,
-            transition_steps=n_steps // 2,
+            transition_steps=1,#n_steps // 2,
             decay_rate=DECAY_RATE,
             transition_begin=int(n_steps * TRANS_BEGIN),
             staircase=STAIRCASE,
+            end_value=lr/END_LR_FACTOR
         )
 
         # initialise optimiser with specified lr schedule
