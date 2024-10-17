@@ -22,9 +22,13 @@ Comments:
 
 ## Examples
 
+### [``examples/BCGPs``](examples/BCGPs)
+
+Experiments from [our JMLR paper](https://jmlr.org/papers/v25/23-1508.html)
+
 ### [``examples/PSGPs``](examples/PSGPs)
 
-Experiments from [our ICML paper](https://openreview.net/forum?id=1V50J0emll).
+Experiments from [our ICML paper](https://openreview.net/forum?id=1V50J0emll)
 
 ## Tests
 
