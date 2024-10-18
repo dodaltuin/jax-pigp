@@ -40,7 +40,19 @@ pytest tests -v
 
 ## Reference
 
-If you use this code, please the following paper:
+If you use this code, please the following papers:
+
+```
+@article{dalton2024boundary,
+  title={Boundary constrained Gaussian processes for robust physics-informed machine learning of linear partial differential equations},
+  author={Dalton, David and Lazarus, Alan and Gao, Hao and Husmeier, Dirk},
+  journal={Journal of Machine Learning Research},
+  volume={25},
+  number={272},
+  pages={1--61},
+  year={2024}
+}
+```
 
 ```
 @inproceedings{dalton2024symmetry,
